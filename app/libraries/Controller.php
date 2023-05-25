@@ -9,7 +9,7 @@
       // Require model file
       require_once '../app/models/' . $model . '.php';
 
-      // Instantiate model
+      // Instan tiate model
       return new $model();
     }
 

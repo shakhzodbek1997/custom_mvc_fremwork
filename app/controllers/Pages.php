@@ -4,6 +4,7 @@
 
     }
 
+    
     public function index(){
       $data = [
         'title' => 'Welcome'
