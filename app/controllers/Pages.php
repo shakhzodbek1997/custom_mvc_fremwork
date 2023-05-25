@@ -3,17 +3,19 @@
     public function __construct(){
 
     }
-
-    
     public function index(){
       $data = [
-        'title' => 'Welcome'
+        'title' => 'Welcome index '
       ];
 
       $this->view('pages/index', $data);
     }
 
     public function about(){
-      $this->view('pages/about');
+      $data = [
+        'title' => 'About Us'
+      ];
+
+      $this->view('pages/about', $data);
     }
   }
